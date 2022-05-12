@@ -21,6 +21,7 @@
     // We'll write code together here...
     let growMe = document.getElementById("grow-me");
     growMe.classList.add("big");
+    let shrinkMe = document.getElementById("shrink-me");
+    shrinkMe.classList.remove("big");
   }
-
 }
