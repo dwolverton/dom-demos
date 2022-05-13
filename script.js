@@ -28,6 +28,9 @@
     for (const item of listItems) {
       console.log(item.innerText);
     }
-    
+
+    let link = document.querySelector(".link");
+    link.setAttribute("href", "https://www.example.com");
+    link.innerText = "somewhere";
   }
 }
