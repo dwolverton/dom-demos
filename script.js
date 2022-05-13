@@ -23,5 +23,11 @@
     growMe.classList.add("big");
     let shrinkMe = document.getElementById("shrink-me");
     shrinkMe.classList.remove("big");
+
+    let listItems = document.querySelectorAll("li");
+    for (const item of listItems) {
+      console.log(item.innerText);
+    }
+    
   }
 }
