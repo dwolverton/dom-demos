@@ -38,5 +38,10 @@
 
     let showMe = document.getElementById("show-me");
     showMe.style.display = "block";
+
+    let nameInput = document.getElementById("name");
+    let titleEl = document.querySelector("h1");
+    let userName = nameInput.value;
+    titleEl.innerText = `Welcome ${userName}!`;
   }
 }
