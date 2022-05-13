@@ -32,5 +32,11 @@
     let link = document.querySelector(".link");
     link.setAttribute("href", "https://www.example.com");
     link.innerText = "somewhere";
+
+    let hideMe = document.getElementById("hide-me");
+    hideMe.style.display = "none";
+
+    let showMe = document.getElementById("show-me");
+    showMe.style.display = "block";
   }
 }
